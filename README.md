@@ -19,7 +19,7 @@ This is a Persian keyboard layout for the people who want to use their windows l
 
 4) open `/usr/share/X11/xkb/rules/evdev.xml` and look for Persian language part
 
-```
+```xml
 <layout>
 	<configItem>
 		<name>ir</name>
@@ -40,7 +40,7 @@ This is a Persian keyboard layout for the people who want to use their windows l
 
 5) you have to add this part of code inside the layout:variantList block (it is a variant block)
 
-```
+```xml
 <variant>
 	<configItem>
 		<name>pes_windows</name>
