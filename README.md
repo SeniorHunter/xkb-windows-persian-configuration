@@ -21,30 +21,30 @@ This is a Persian keyboard layout for the people who want to use their windows l
 
 ```
 <layout>
-  <configItem>
-    <name>ir</name>
-    <shortDescription>fa</shortDescription>
-    <description>Persian</description>
-    <languageList>
-      <iso639Id>per</iso639Id>
-    </languageList>
-  </configItem>
+	<configItem>
+		<name>ir</name>
+		<shortDescription>fa</shortDescription>
+		<description>Persian</description>
+		<languageList>
+			<iso639Id>per</iso639Id>
+		</languageList>
+	</configItem>
 
-  <variantList>
-    ...
-    {your code}
-    ...
-  </variantList>
+	<variantList>
+		...
+		{your code}
+		...
+	</variantList>
 </layout>
 ```  
 
-5) you have to add this part of code inside layout:variantList block (it is a variant block)
+5) you have to add this part of code inside the layout:variantList block (it is a variant block)
 
 ```
 <variant>
-  <configItem>
-    <name>pes_windows</name>
-    <description>Persian (windows)</description>
-  </configItem>
+	<configItem>
+		<name>pes_windows</name>
+		<description>Persian (windows)</description>
+	</configItem>
 </variant>
  ```
