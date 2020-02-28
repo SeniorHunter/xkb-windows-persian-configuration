@@ -38,7 +38,7 @@ This is a Persian keyboard layout for the people who want to use their windows l
 </layout>
 ```  
 
-5) you have to add this part of code inside the layout:variantList block (it is a variant block)
+5) you have to add this part of code inside the layout:variantList block (it is a variant block) and save it
 
 ```xml
 <variant>
@@ -48,3 +48,4 @@ This is a Persian keyboard layout for the people who want to use their windows l
 	</configItem>
 </variant>
  ```
+ 6) `sudo dpkg-reconfigure xkb-data`
