@@ -32,7 +32,7 @@ This is a Persian keyboard layout for the people who want to use their windows l
 
 	<variantList>
 		...
-		{your code}
+		>>Here<<
 		...
 	</variantList>
 </layout>
